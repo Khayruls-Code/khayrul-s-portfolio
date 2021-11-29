@@ -24,6 +24,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
+      <p className='rotate-text'>Khayrul's Portfolio</p>
     </div>
   );
 };

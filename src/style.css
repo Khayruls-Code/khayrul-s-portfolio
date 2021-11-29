@@ -208,6 +208,35 @@ li{
   background-color: #fff;
   color: #000;
 }
+.rotate-text{
+  color: #ffffff;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  position: absolute;
+  right: -230px;
+  top: 50%;
+  transform: rotate(90deg) translate(-20%);
+  transform-origin: 0 0;
+}
+.rotate-text::after{
+  content: '';
+  position: absolute;
+  width: 80px;
+  height: 1px;
+  background: #ffffff;
+  top: 50%;
+  left: -90px;
+}
+.rotate-text::before{
+  content: '';
+  position: absolute;
+  width: 80px;
+  height: 1px;
+  background: #ffffff;
+  top: 50%;
+  right: -90px;
+}
 
 /* projects section */
 .projects{
@@ -370,7 +399,7 @@ li{
 }
 .footer-row p{
   color: rgba(255, 255, 255, 0.5);
-  font-size: 0.9rem;
+  font-size: 1rem;
   margin-top: 15px;
 }
 .footer-row ul{
