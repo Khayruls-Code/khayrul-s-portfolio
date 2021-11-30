@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { HashLink } from 'react-router-hash-link';
 
 const Projects = () => {
   const [projects, setProjects] = useState([])
@@ -23,7 +24,7 @@ const Projects = () => {
                 <p>{project.desc}</p>
                 <div className="heroBtn">
                   <a target='_blank' rel="noreferrer" href={project.liveLink} className='primaryBtn' download>Preview</a>
-                  <a target='_blank' rel="noreferrer" href={project.codeLink} className='primaryBtn secondaryBtn'>Code</a>
+                  <HashLink to={`/project/${project.id}/#projectDetails`} className='primaryBtn secondaryBtn'>Details</HashLink>
                 </div>
               </div>
             </div>)

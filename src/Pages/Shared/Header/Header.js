@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { HashLink } from 'react-router-hash-link';
 
 const Header = () => {
 
@@ -21,10 +22,10 @@ const Header = () => {
       <div>
         <div className={isShow ? "navigation" : "navigation hide"}>
           <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="/">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><HashLink onClick={() => setIsShow(!isShow)} to="/home/#home">Home</HashLink></li>
+            <li><HashLink onClick={() => setIsShow(!isShow)} to="/home/#about">About</HashLink></li>
+            <li><HashLink onClick={() => setIsShow(!isShow)} to="/home/#projects">Projects</HashLink></li>
+            <li><HashLink onClick={() => setIsShow(!isShow)} to="/home/#contact">Contact</HashLink></li>
           </ul>
         </div>
       </div>
