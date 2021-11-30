@@ -1,14 +1,8 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import image from '../../../images/about.jpg'
 import { GrFacebookOption, GrLinkedinOption, GrGithub, GrInstagram } from 'react-icons/gr'
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 
 const About = () => {
-
-  useEffect(() => {
-    AOS.init()
-  })
 
   return (
     <div id='about'>
