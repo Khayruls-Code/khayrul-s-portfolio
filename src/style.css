@@ -290,6 +290,15 @@ li{
   background-color: #ffffff;
 }
 
+/* expert */
+.expert{
+  padding: 50px 0;
+  background-color: #202020;
+}
+.expert img{
+  width: 100%;
+}
+
 /* projects section */
 .projects{
   padding: 70px 0;
@@ -626,6 +635,14 @@ li{
     margin-top: 20px;
   }
 }
+
+/* blogs */
+
+.blogs{
+  padding: 100px 0;
+  text-align: center;
+}
+
 @media only screen and (max-width:600px){
   .text-animation{
     font-size: 2rem;

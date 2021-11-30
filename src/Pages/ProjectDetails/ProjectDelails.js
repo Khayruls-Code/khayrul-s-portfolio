@@ -51,7 +51,7 @@ const ProjectDelails = () => {
         <div className="details">
           <h2>{project?.name}</h2>
           <p>{project?.desc}</p>
-          <h3>Technologyes</h3>
+          <h3>Technologies</h3>
           <div className='technology'>
             {
               project?.technoligy?.split(', ').map(item => <span>{item}</span>)
