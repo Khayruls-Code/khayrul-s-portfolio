@@ -11,13 +11,13 @@ const Projects = () => {
   return (
     <div className='projects' id='projects'>
       <div className="container">
-        <div className="section-title">
+        <div data-aos="fade-right" data-aos-duration="1000" className="section-title">
           <h1>Work I Have Done</h1>
           <p>Portfolio</p>
         </div>
         <div className="row">
           {
-            projects?.map(project => <div className='projectBox' key={project.id}>
+            projects?.map(project => <div data-aos="zoom-in-up" data-aos-duration="1000" className='projectBox' key={project.id}>
               <img src={project.img} alt="" />
               <div className='info'>
                 <h2>{project.name}</h2>

@@ -11,6 +11,9 @@ import github from '../../../images/expert/github.jpg'
 import firebase from '../../../images/expert/firebase.png'
 import express from '../../../images/expert/express.png'
 import mongodb from '../../../images/expert/mongodb.png'
+import bootstrap from '../../../images/expert/bootstrap.png'
+import tailwind from '../../../images/expert/tailwind.jpg'
+import mui from '../../../images/expert/mui.jpg'
 import SwiperCore from 'swiper';
 SwiperCore.use([Autoplay]);
 
@@ -57,6 +60,15 @@ const Expert = () => {
         </SwiperSlide>
         <SwiperSlide>
           <img src={node} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={bootstrap} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={tailwind} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={mui} alt="" />
         </SwiperSlide>
         <SwiperSlide>
           <img src={github} alt="" />

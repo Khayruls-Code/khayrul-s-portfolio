@@ -1,16 +1,23 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import image from '../../../images/about.jpg'
 import { GrFacebookOption, GrLinkedinOption, GrGithub, GrInstagram } from 'react-icons/gr'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const About = () => {
+
+  useEffect(() => {
+    AOS.init()
+  })
+
   return (
     <div id='about'>
       <div className="container">
         <div className="about-row">
-          <div className='about-left'>
+          <div data-aos="fade-right" data-aos-duration="1000" className='about-left'>
             <img src={image} alt="" />
           </div>
-          <div className='about-right'>
+          <div data-aos="fade-left" data-aos-duration="1000" className='about-right'>
             <div className="section-title">
               <h1>About Me</h1>
               <p>Junior Web Developer</p>

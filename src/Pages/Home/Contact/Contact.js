@@ -6,12 +6,12 @@ const Contact = () => {
   return (
     <div className='contact' id='contact'>
       <div className="container">
-        <div className="section-title">
+        <div data-aos="fade-left" data-aos-duration="1000" className="section-title">
           <h1>Get In Touch</h1>
           <p>Contact</p>
         </div>
         <div className="contact-row">
-          <div className="contact-form">
+          <div data-aos="fade-right" data-aos-duration="1000" className="contact-form">
             <form target="_blank" action="https://formsubmit.co/khayrulislam2525@gmail.com" method="POST">
               <div className='inputGroup'>
                 <input type="text" name='name' placeholder='Name' required />
@@ -29,13 +29,13 @@ const Contact = () => {
           </div>
           <div className="contact-info">
             <div className='info-row'>
-              <div>
+              <div data-aos="zoom-in" data-aos-duration="1000">
                 <div className="icon">
                   <GoLocation />
                 </div>
                 <p>Rangpur, Bangladesh</p>
               </div>
-              <div>
+              <div data-aos="zoom-in" data-aos-duration="1500">
                 <div className="icon">
                   <BsEnvelope />
                 </div>
@@ -43,7 +43,7 @@ const Contact = () => {
               </div>
             </div>
             <div className='info-row'>
-              <div>
+              <div data-aos="zoom-out-up" data-aos-duration="1500">
                 <div className="icon">
                   <BsTelephone />
                 </div>

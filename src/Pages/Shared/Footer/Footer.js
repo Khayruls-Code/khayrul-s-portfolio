@@ -5,18 +5,18 @@ const Footer = () => {
   return (
     <div className='footer'>
       <div className="container">
-        <div className="subscribe-box">
+        <div data-aos="fade-down-right" data-aos-duration="1000" className="subscribe-box">
           <input type="text" placeholder='Your Email' />
           <button>Subscribe <GiPaperPlane /></button>
         </div>
         <div className="footer-row">
-          <div>
+          <div data-aos="fade-right" data-aos-duration="1000">
             <div className="logo">
               <h3>Khayrul's</h3>
             </div>
             <p>I am a Front End Developer. My role is to write and style the front-end components that meet the requirements of our mocks and fulfill our user stories. I also monitor and process pull requests for production deployments. Technologies used: HTML, CSS, React, JavaScript, ES6, Node JS, Express, MongoDB, Firebase, etc.</p>
           </div>
-          <div>
+          <div data-aos="zoom-in" data-aos-duration="1000">
             <div className="logo">
               <h3>Quick Links</h3>
             </div>
@@ -29,7 +29,7 @@ const Footer = () => {
               <li><a href="#home">Service</a></li>
             </ul>
           </div>
-          <div>
+          <div data-aos="fade-left" data-aos-duration="1000">
             <div className="logo">
               <h3>Present Location</h3>
             </div>
