@@ -3,7 +3,6 @@ import image from '../../../images/about.jpg'
 import { GrFacebookOption, GrLinkedinOption, GrGithub, GrInstagram } from 'react-icons/gr'
 
 const About = () => {
-
   return (
     <div id='about'>
       <div className="container">

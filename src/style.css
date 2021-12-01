@@ -6,6 +6,12 @@
 html{
   font-size: 15px;
 }
+#root{
+  overflow: hidden;
+}
+body{
+  overflow-x: hidden;
+}
 a{
   text-decoration: none;
 }
