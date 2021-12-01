@@ -6,12 +6,9 @@
 html{
   font-size: 15px;
 }
-#root{
-  overflow: hidden;
-}
-body{
-  overflow-x: hidden;
-}
+/* #root{
+  overflow-X: hidden;
+} */
 a{
   text-decoration: none;
 }
@@ -22,6 +19,7 @@ li{
   width: 90%;
   max-width: 1140px;
   margin: auto;
+  overflow: hidden;
 }
 
 /* header */
@@ -29,7 +27,7 @@ li{
   background-color: #202020;
   padding: 15px 0;
   z-index: 9999;
-  position: sticky;
+  position: sticky !important;
   width: 100%;
   top: 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -191,6 +189,7 @@ li{
 .heroBtn{
   margin-top: 30px;
 }
+
 .primaryBtn{
   padding: 13px 20px;
   border: 1px solid #ffffff;
@@ -209,6 +208,9 @@ li{
   margin-left: 30px;
   background-color: #fff;
   color: #000;
+}
+.hero .heroBtn{
+  margin-bottom: 50px;
 }
 .primaryBtn:hover{
   background-color: #fff;
