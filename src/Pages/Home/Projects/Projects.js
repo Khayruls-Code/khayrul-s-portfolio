@@ -21,7 +21,7 @@ const Projects = () => {
               <img src={project.img} alt="" />
               <div className='info'>
                 <h2>{project.name}</h2>
-                <p>{project.desc}</p>
+                <p>{project.desc?.slice(0, 110)}</p>
                 <div className="heroBtn">
                   <a target='_blank' rel="noreferrer" href={project.liveLink} className='primaryBtn' download>Preview</a>
                   <HashLink to={`/project/${project.id}/#projectDetails`} className='primaryBtn secondaryBtn'>Details</HashLink>

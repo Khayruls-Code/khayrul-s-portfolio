@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Shoes Gallery",
     "technoligy": "React, Node, Express, CSS, HTML, JavaScript, React Hook Form, Bootstrap, Firebase, Tailwind CSS",
-    "desc": "Its a a Fully Responsive, User Friendly, Professional Designed, Secuired E-Commerce Website . User can buy any product from here",
+    "desc": "Its a a Fully Responsive, User Friendly, Professional Designed, Secuired E-Commerce Website. Firebase authentication is implemented here. A user can buy his favorite shoe from here. The dashboard is different for the admin and general users. General users can see their ordered products and they can add a review.  When an admin will logged in he/she will see all orders. He/She will be able to delete an order or change the order status. He/She will be able to add a product, make an admin, and manage all products",
     "img": "https://i.ibb.co/gTrftRW/shoew-gallery.png",
     "liveLink": "https://shoes-gallery-ecommerce.web.app/",
     "clientLink": "https://github.com/Khayruls-Code/shoes-gallery",
@@ -17,18 +17,18 @@
   },
   {
     "id": 2,
-    "name": "Travel Pro Agency",
-    "technoligy": "React, Node, Express, CSS, HTML, JavaScript, React Hook Form, Bootstrap, Firebase",
-    "desc": "Its a a Fully Responsive, User Friendly, Professional Designed, Secuired Travvelling Website. User can book any package",
-    "img": "https://i.ibb.co/GPMG1f1/travel.png",
-    "liveLink": "https://travel-pro-agency.web.app/",
-    "clientLink": "https://github.com/Khayruls-Code/travel-pro",
-    "serverLink": "https://github.com/Khayruls-Code/travel-pro-server",
+    "name": "MPI Institute",
+    "technoligy": "React, Node, Express, MongoDB, CSS, Tailwind CSS, Firebase, React Router, React Hook Form",
+    "desc": "It’s a  Fully Responsive, User-Friendly, Professional Designed, College website. Firebase Authentication System is Implemented.  Students can buy courses from here. Here I implemented different profiles for students and teachers. The design of the website is also good",
+    "img": "https://i.postimg.cc/Gp4Nt269/mpi.png",
+    "liveLink": "https://mpi-polytechnic-institute.netlify.app/",
+    "clientLink": "https://github.com/Khayruls-Code/modern-polytechnic-institute",
+    "serverLink": "https://github.com/Khayruls-Code/modern-polytechnic-server",
     "otherImg": [
-      "https://i.postimg.cc/zDxNcDNz/travel1.png",
-      "https://i.postimg.cc/gJqzJ318/travel2.png",
-      "https://i.postimg.cc/7PnhYyyd/travel3.png",
-      "https://i.postimg.cc/Y9w2MdDt/travel4.png"
+      "https://i.postimg.cc/Vk1XGVzR/mpi1.png",
+      "https://i.postimg.cc/j59zMqjw/mpi2.png",
+      "https://i.postimg.cc/XJXfKBn6/mpi3.png",
+      "https://i.postimg.cc/vmYLBSjB/mpi4.png"
     ]
   },
   {
@@ -48,6 +48,22 @@
   },
   {
     "id": 4,
+    "name": "Travel Pro Agency",
+    "technoligy": "React, Node, Express, CSS, HTML, JavaScript, React Hook Form, Bootstrap, Firebase",
+    "desc": "Its a a Fully Responsive, User Friendly, Professional Designed, Secuired Travvelling Website. User can book any package",
+    "img": "https://i.ibb.co/GPMG1f1/travel.png",
+    "liveLink": "https://travel-pro-agency.web.app/",
+    "clientLink": "https://github.com/Khayruls-Code/travel-pro",
+    "serverLink": "https://github.com/Khayruls-Code/travel-pro-server",
+    "otherImg": [
+      "https://i.postimg.cc/zDxNcDNz/travel1.png",
+      "https://i.postimg.cc/gJqzJ318/travel2.png",
+      "https://i.postimg.cc/7PnhYyyd/travel3.png",
+      "https://i.postimg.cc/Y9w2MdDt/travel4.png"
+    ]
+  },
+  {
+    "id": 5,
     "name": "Football Club",
     "technoligy": "HTML, CSS, JavaScript, FontAwesome",
     "desc": " It's a simple football club page made with HTML, CSS, JavaScript etc. The web site is fully responsive",
@@ -59,16 +75,6 @@
       "https://i.postimg.cc/xdf9cXyz/football2.png",
       "https://i.postimg.cc/ryB0z9dR/football3.png"
     ]
-  },
-  {
-    "id": 5,
-    "name": "Volunteer Network",
-    "technoligy": "React, Firebase, CSS, React Hook Form, React Router",
-    "desc": "The design of this website is very cool. It's also responsive, good looking, User Friendly. There have many Options",
-    "img": "https://i.ibb.co/GvBsR5d/volunteer.png",
-    "liveLink": "https://volunteer-network-socity.web.app/",
-    "clientLink": "https://github.com/Khayruls-Code/volunteer-network",
-    "serverLink": "https://github.com/Khayruls-Code/volunteer-network-server"
   },
   {
     "id": 6,
